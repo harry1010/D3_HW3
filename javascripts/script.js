@@ -50,3 +50,8 @@ $(document).ready(function(){
   })
 });
 })(jQuery)
+
+function random(n, m)
+{
+    return Math.ceil( Math.random()*(m-n)+n )
+}
